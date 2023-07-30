@@ -1,6 +1,6 @@
 Dependencies for Project 'MALLOC', Target 'FreeRTOS': (DO NOT MODIFY !)
 CompilerVersion: 5050106::V5.05 update 1 (build 106)::.\ARMCC
-F (.\main.c)(0x64C67326)(-c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I ..\CORE -I ..\OBJ -I ..\USER -I ..\USMART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HALLIB\STM32F4xx_HAL_Driver\Inc -I ..\MALLOC -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\SRAM -I ..\XMRAM -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o ..\obj\main.o --depend ..\obj\main.d)
+F (.\main.c)(0x64C678FC)(-c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I ..\CORE -I ..\OBJ -I ..\USER -I ..\USMART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HALLIB\STM32F4xx_HAL_Driver\Inc -I ..\MALLOC -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\SRAM -I ..\XMRAM -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o ..\obj\main.o --depend ..\obj\main.d)
 I (..\SYSTEM\sys\sys.h)(0x64C65EE1)
 I (..\USER\stm32f4xx.h)(0x5D8194E8)
 I (..\USER\stm32f407xx.h)(0x64C6666B)
@@ -67,7 +67,7 @@ I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x5D8195C0)
 I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h)(0x5D8195BF)
 I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x5D8195BF)
 I (..\SYSTEM\delay\delay.h)(0x58E5F540)
-I (..\SYSTEM\usart\usart.h)(0x64C65EE1)
+I (..\SYSTEM\usart\usart.h)(0x64C677DF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
 I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x64C66308)
@@ -1592,8 +1592,8 @@ I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd.h)(0x5D8195BF)
 I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h)(0x5D8195C0)
 I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h)(0x5D8195BF)
 I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x5D8195BF)
-F (..\SYSTEM\usart\usart.c)(0x64C66533)(-c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I ..\CORE -I ..\OBJ -I ..\USER -I ..\USMART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HALLIB\STM32F4xx_HAL_Driver\Inc -I ..\MALLOC -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\SRAM -I ..\XMRAM -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o ..\obj\usart.o --depend ..\obj\usart.d)
-I (..\SYSTEM\usart\usart.h)(0x64C65EE1)
+F (..\SYSTEM\usart\usart.c)(0x64C678E7)(-c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I ..\CORE -I ..\OBJ -I ..\USER -I ..\USMART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HALLIB\STM32F4xx_HAL_Driver\Inc -I ..\MALLOC -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\SRAM -I ..\XMRAM -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o ..\obj\usart.o --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x64C677DF)
 I (..\SYSTEM\sys\sys.h)(0x64C65EE1)
 I (..\USER\stm32f4xx.h)(0x5D8194E8)
 I (..\USER\stm32f407xx.h)(0x64C6666B)
@@ -1804,7 +1804,7 @@ I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h)(0x5D8195BF)
 I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x5D8195BF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54765570)
 I (..\HARDWARE\LCD\font.h)(0x574DA4B3)
-I (..\SYSTEM\usart\usart.h)(0x64C65EE1)
+I (..\SYSTEM\usart\usart.h)(0x64C677DF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
 I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x64C66308)
@@ -1951,7 +1951,7 @@ I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h)(0x5D8195BF)
 I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x5D8195BF)
 I (..\SYSTEM\delay\delay.h)(0x58E5F540)
 I (..\XMRAM\XMRAM.h)(0x5DB2678A)
-I (..\SYSTEM\usart\usart.h)(0x64C65EE1)
+I (..\SYSTEM\usart\usart.h)(0x64C677DF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
 I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x64C66308)
@@ -2097,7 +2097,7 @@ I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h)(0x5D8195BF)
 I (..\HALLIB\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h)(0x5D8195BF)
 F (..\XMRAM\XMRAM.h)(0x5DB2678A)()
 F (..\XMRAM\XMRAM.lib)(0x5DB6AAC2)()
-F (..\readme.txt)(0x55C035FF)()
+F (..\readme.txt)(0x64C6787E)()
 F (..\FreeRTOS\croutine.c)(0x64020E50)(-c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I ..\CORE -I ..\OBJ -I ..\USER -I ..\USMART -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HALLIB\STM32F4xx_HAL_Driver\Inc -I ..\MALLOC -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\SRAM -I ..\XMRAM -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o ..\obj\croutine.o --depend ..\obj\croutine.d)
 I (..\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54765570)

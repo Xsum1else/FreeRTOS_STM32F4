@@ -2,10 +2,19 @@
 	探索者STM32F407ZGT6“悟”开发板
 	
 实验目的:
-	学习FreeRTOS.
+	1, Study FreeRTOS.
 	内存管理知识,方便大工程应用.
 	
 硬件资源:
+	1, LED config：
+		LED0 PF9
+		LED1 PF10
+
+	2, uart config:
+		baudrates 115200
+		PA9 
+		PA10
+
 	1,DS0(连接在PF9)
 	2,串口1(波特率:115200,PA9/PA10连接在板载USB转串口芯片CH340上面)
 	3,ALIENTEK 2.8/3.5/4.3/7寸TFTLCD模块(通过FSMC驱动,FSMC_NE4接LCD片选/A6接RS)
